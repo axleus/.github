@@ -12,7 +12,7 @@ body:
       placeholder: 0.0.1
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: basic
     attributes:
       label: Basic Information
