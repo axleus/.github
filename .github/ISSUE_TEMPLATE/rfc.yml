@@ -15,8 +15,8 @@ body:
   - type: markdown
     id: basic
     attributes:
-      label: Basic Information
-      description: What does this RFC propose?
+      value: |
+       What does this RFC propose?
     validations:
       required: true
   - type: textarea
