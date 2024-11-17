@@ -1,7 +1,6 @@
 name: Bug Report
 description: File a non security related bug report.
 labels: ["status: Not Confirmed"]
-projects: ["axleus/TSC"]
 body:
   - type: input
     id: packageversion
