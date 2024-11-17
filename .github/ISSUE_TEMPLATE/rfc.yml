@@ -16,7 +16,7 @@ body:
     id: basic
     attributes:
       value: |
-        "## Proposal"
+        ## Proposal
   - type: markdown
     id: background
     attributes:
