@@ -5,7 +5,7 @@ body:
   - type: input
     id: packageversion
     attributes:
-      label: Package Version?
+      label: Package Version
       description: Which version of the component are you using?
       placeholder: 0.0.1
     validations:
