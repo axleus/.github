@@ -16,24 +16,24 @@ body:
     id: basic
     attributes:
       value: |
-       What does this RFC propose?
+      What does this RFC propose?
   - type: markdown
     id: background
     attributes:
       value: |
-       Background information that led to this RFC.
+      Background information that led to this RFC.
   - type: markdown
     id: considerations
     attributes:
       value: |
-       How does this affect users, related packages etc.
+      How does this affect users, related packages etc.
   - type: markdown
     id: proposal
     attributes:
       value: |
-       How do we accomplish it?
+      How do we accomplish it?
   - type: markdown
     id: appendix
     attributes:
       value: |
-       Add any references, RFCs or other information which may be useful.
+      Add any references, RFCs or other information which may be useful.
