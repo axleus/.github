@@ -12,28 +12,30 @@ body:
       placeholder: 0.0.1
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: basic
     attributes:
-      value: |
-        ## Proposal
-  - type: markdown
+      label: Basic Information
+      description: What does this RFC propose?
+    validations:
+      required: true
+  - type: textarea
     id: background
     attributes:
-      value: |
-        Background information that led to this RFC.
-  - type: markdown
+      label: Background
+      description: Background information that led to this RFC.
+  - type: textarea
     id: considerations
     attributes:
-      value: |
-        How does this affect users, related packages etc.
-  - type: markdown
+      label: Considerations
+      description: How does this affect users, related packages etc.
+  - type: textarea
     id: proposal
     attributes:
-      value: |
-        How do we accomplish it?
-  - type: markdown
+      label: Proposal(s)
+      description: How do we accomplish it?
+  - type: textarea
     id: appendix
     attributes:
-      value: |
-        Add any references, RFCs or other information which may be useful.
+      label: Appendix/Additional Info
+      description: Add any references, RFCs or other information which may be useful.
