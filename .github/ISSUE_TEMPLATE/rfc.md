@@ -1,23 +1,41 @@
----
 name: RFC
-about: Create an issue to for discussion around new features
-title: '[RFC]:'
-labels: 'RFC'
-assignees: ''
-
----
-
-**Goal**
-A clear and concise description of what the bug is.
-
-**Background**
-Any background information that can be given about why this would be useful.
-
-**Considerations**
-How does it affect related components, current usage etc.
-
-**Proposal(s)**
-How does this RFC propose to achieve the desired behavior.
-
-**Appendix**
-Addtional information
+description: Create an RFC
+title: "[RFC]: "
+labels: ["RFC"]
+projects: ["axleus/TSC"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Proposed Version
+      description: Which version of the component does this target or is it a new Major/Minor?
+      placeholder: 0.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: basic
+    attributes:
+      label: Basic Information
+      description: What does this RFC propose?
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Background information that led to this RFC.
+  - type: textarea
+    id: considerations
+    attributes:
+      label: Considerations
+      description: How does this affect users, related packages etc.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal(s)
+      description: How do we accomplish it?
+  - type: textarea
+    id: appendix
+    attributes:
+      label: Appendix/Additional Info
+      description: Add any references, RFCs or other information which may be useful.
